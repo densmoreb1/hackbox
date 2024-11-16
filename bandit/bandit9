@@ -1,0 +1,6 @@
+sort example.txt | uniq -c | sort -nr
+
+uniq -c		: Adds a count of occurrences.
+sort -nr	: Sorts the output numerically in reverse order (most frequent first).
+
+password for 9 is 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM

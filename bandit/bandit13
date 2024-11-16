@@ -1,0 +1,21 @@
+file starts out as hexdump
+
+	xxd -r data.txt > file1
+
+find out what type of compression
+
+	file file1
+
+repeat over and over
+
+	mv compressed_file compressed_file.gz
+	gunzip compressed_file.gz
+
+	mv compressed_file compressed_file.bz2
+	bunzip2 compressed_file.bz2
+
+	tar -xf compressed_file
+
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+

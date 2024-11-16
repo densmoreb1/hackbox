@@ -1,0 +1,4 @@
+strings data.txt | grep '=='
+
+password for 10 is FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+

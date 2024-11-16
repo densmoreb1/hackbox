@@ -1,0 +1,8 @@
+find / -type f -user bandit7 2>/dev/null
+
+-user 		:files owned by bandit7
+2>/dev/null 	:filters out permission denied errors
+
+cat /var/lib/dpkg/info/bandit7.password
+
+password for bandit7 is morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj

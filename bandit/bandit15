@@ -1,0 +1,6 @@
+use netcat t0 send data to a port
+
+echo 'MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS' | nc localhost 30000
+
+password is for 15 is 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+

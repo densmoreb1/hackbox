@@ -1,0 +1,13 @@
+cd inhere
+
+find . -type f -size 1033c ! -executable -exec file {} + | grep text
+
+.		: Search in the current directory and subdirectories.
+-type f		: Restrict search to files.
+-size 1033c	: Find files that are exactly 1033 bytes (c stands for bytes).
+! -executable	: Exclude executable files.
+-exec file {} +	: Check the type of each file.
+grep text	: Filter files that are human-readable (text indicates this).
+
+password for 6 is HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+

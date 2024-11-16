@@ -1,0 +1,10 @@
+tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt 
+
+tr		: Translates or replaces characters.
+'A-Za-z'	: Matches all uppercase and lowercase letters.
+'N-ZA-Mn-za-m'	: Maps letters to their equivalents 13 positions ahead (ROT13).
+< input.txt	: Specifies the input file.
+
+
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
