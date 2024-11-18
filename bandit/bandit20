@@ -1,0 +1,8 @@
+./bandit20-do id
+
+this runs as a different user
+
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+password for 20 is 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+

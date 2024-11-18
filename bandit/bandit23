@@ -1,0 +1,14 @@
+script in cron job
+
+myname=$(whoami)
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+
+echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
+
+cat /etc/bandit_pass/$myname > /tmp/$mytarget
+
+run echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+to see which tmp/ folder the password lives in
+
+password for 23 is 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+

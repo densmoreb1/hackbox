@@ -1,0 +1,11 @@
+run ps -aux to find what port to run on
+
+./suconnect 9999
+
+in a sepreate terminal
+
+nc -l -p 9999
+paste 20's password
+
+password for 21 is EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
