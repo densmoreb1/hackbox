@@ -4,6 +4,5 @@
 
 ## My Docker Container
 
-docker run -it -v ./hackbox:/root/hackbox --cap-add NET_ADMIN mini-kali:latest zsh 
-
+docker run -it -v ./hackbox:/root/hackbox --cap-add NET_ADMIN --rm --network host mini-kali:latest zsh
 
